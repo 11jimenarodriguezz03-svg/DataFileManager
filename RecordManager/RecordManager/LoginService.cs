@@ -86,7 +86,7 @@ public static class LoginService
     {
         Console.ForegroundColor = ConsoleColor.Cyan;
         Console.WriteLine("===============================================");
-        Console.WriteLine($"                  {title}                  ");
+        Console.WriteLine($"                 {title}                 ");
         Console.WriteLine("===============================================");
         Console.ResetColor();
     }
@@ -112,3 +112,4 @@ public static class LoginService
         Console.ResetColor();
     }
 }
+

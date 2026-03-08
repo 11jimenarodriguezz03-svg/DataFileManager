@@ -45,7 +45,6 @@ public static class FileHelper
         foreach (var line in File.ReadAllLines(PersonsFile))
         {
             var p = line.Split(',');
-
             if (p.Length != 6) continue;
 
             int id = int.Parse(p[0]);
